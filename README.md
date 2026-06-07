@@ -1,10 +1,10 @@
 # a11y Motion Primitives
 
-A collection of **accessible, performant micro-interactions** built with [Framer Motion](https://www.framer.com/motion/), [Next.js](https://nextjs.org/), and [Tailwind CSS**.
+A collection of **accessible micro-interactions** built with [Framer Motion](https://www.framer.com/motion/), [Next.js](https://nextjs.org/), and [Tailwind CSS**.
 
-This project demonstrates best practices for combining smooth animations with robust accessibility standards (WCAG 2.1, ARIA patterns, keyboard navigation).
+This project demonstrates best practices for combining smooth animations with web accessibility standards (WCAG 2.1, ARIA patterns, keyboard navigation).
 
-## 🎯 Project Goals
+## Project Goals:
 
 - **Accessibility First**: Full WCAG 2.1 compliance with ARIA patterns
 - **Smooth Animations**: Delightful micro-interactions using Framer Motion
@@ -12,7 +12,7 @@ This project demonstrates best practices for combining smooth animations with ro
 - **Developer Experience**: Well-documented, reusable components
 - **Performance**: Optimized animations respecting `prefers-reduced-motion`
 
-## 📦 Components
+## Components:
 
 ### AccessibleModal
 A fully accessible modal dialog component with:
@@ -37,13 +37,13 @@ Utility components for accessibility:
 - `useScreenReaderAnnouncement` hook
 - Polite and assertive announcement priorities
 
-## 🚀 Getting Started
+## Getting Started:
 
 ### Prerequisites
 - Node.js 16+ 
 - npm or yarn
 
-### Installation
+### Installation:
 
 ```bash
 # Clone the repository
@@ -59,7 +59,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📁 Project Structure
+## Project Structure:
 
 ```
 a11y-motion-primitives/
@@ -80,7 +80,7 @@ a11y-motion-primitives/
 └── README.md                # This file
 ```
 
-## 🛠 Available Scripts
+## Available Scripts:
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
@@ -89,7 +89,7 @@ a11y-motion-primitives/
 - `npm run lint` - Run ESLint
 - `npm run deploy` - Build and export for deployment
 
-## ♿ Accessibility Features
+## ♿ Accessibility Features:
 
 - ✅ Full keyboard navigation
 - ✅ ARIA labels and roles
@@ -99,19 +99,19 @@ a11y-motion-primitives/
 - ✅ Color contrast compliance (WCAG AA)
 - ✅ Skip navigation links
 
-## 🎨 Customization
+##  Customization:
 
-### Tailwind Configuration
+### Tailwind Configuration:
 Modify `tailwind.config.js` to customize:
 - Color schemes
 - Typography
 - Breakpoints
 - Custom utilities
 
-### Animation Preferences
+### Animation Preferences:
 All Framer Motion animations respect the `prefers-reduced-motion` media query automatically.
 
-## 📚 Resources
+## Resources:
 
 - [Framer Motion Docs](https://www.framer.com/motion/)
 - [Next.js Documentation](https://nextjs.org/docs)
@@ -119,19 +119,19 @@ All Framer Motion animations respect the `prefers-reduced-motion` media query au
 - [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/WAI/WCAG21/quickref/)
 - [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
 
-## 🤝 Contributing
+## Contributing:
 
-Contributions are welcome! Please ensure:
-1. Components meet WCAG 2.1 Level AA standards
+Contributions are welcomed! Please ensure:
+1. The components meet WCAG 2.1 Level AA standards
 2. Keyboard navigation is fully functional
 3. Code follows the existing style patterns
 4. Animations respect `prefers-reduced-motion`
 
-## 📄 License
+## License:
 
 MIT License - see LICENSE file for details
 
-## 👋 Author
+## Author:
 
 **Gabrielle** - [@gabrielle-is-away](https://github.com/gabrielle-is-away)
 
